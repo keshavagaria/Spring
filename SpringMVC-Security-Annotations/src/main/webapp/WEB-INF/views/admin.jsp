@@ -4,9 +4,9 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Home</title>
+<title>Insert title here</title>
 </head>
 <body>
-<h1>Welcome To The World of Security</h1>
+<h1>Welcome Admin</h1>
 </body>
 </html>

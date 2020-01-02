@@ -13,5 +13,15 @@ public class HomeController {
 		return "home";
 	}
 	
-	 
+	@RequestMapping(value="/user",method = RequestMethod.GET)
+	public String user()
+	{
+		return "user";
+	}
+	
+	@RequestMapping(value="/admin",method = RequestMethod.GET)
+	public String admin()
+	{
+		return "admin";
+	}
 }
