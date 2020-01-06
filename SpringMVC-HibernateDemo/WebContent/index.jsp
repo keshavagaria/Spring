@@ -4,9 +4,11 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>SpringMVC-HibernateDemo</title>
 </head>
 <body>
 <h1>Hello World</h1>
+<a href="addEmployeeDetails">Click here to add an Employee</a><br/>
+<a href="listEmployee">Click here to get the List of Employees</a>
 </body>
 </html>
