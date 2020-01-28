@@ -17,16 +17,6 @@ public class AppController {
 
 	@Autowired
 	private EmployeeService employeeService;
-
-	@RequestMapping(value="/home", method=RequestMethod.GET)  
-    public String home() {  
-        return "home";  
-    }  
-      
-    @RequestMapping(value="/admin", method=RequestMethod.GET)  
-    public String privateHome() {  
-        return "privatePage";  
-    }  
     
     
 	@RequestMapping(value="/addEmployeeDetails")
